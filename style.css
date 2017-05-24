@@ -1,0 +1,143 @@
+/* Theme Name: Sunday
+Description: moi
+Author: moi - WPserveur
+Author URI: iconic-one
+Template:
+Version: 0.1.0
+*/
+body {
+  background-color: #f1f1f1; }
+
+header .navbar {
+  background-color: #281400;
+  border: none; }
+
+header {
+  background-color: #281400;
+  color: white;
+  padding-bottom: 8em; }
+
+.navbar-default .navbar-nav > li > a {
+  color: white; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+.navbar-form {
+  border: none;
+  box-shadow: none; }
+
+.glyphicon-search {
+  padding-top: 0.5em; }
+
+.btn,
+h1 {
+  text-transform: uppercase; }
+
+.btn {
+  font-weight: bold;
+  background-color: #a28f61;
+  border-color: #a28f61;
+  padding: 1em 2em; }
+
+h1,
+header p {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-weight: bold; }
+
+h1 {
+  margin-top: 3.5em; }
+
+header p {
+  font-size: 3em;
+  margin: 1em 0; }
+
+h2 {
+  font-family: 'Lora', serif;
+  margin: 2em;
+  text-align: center;
+  width: 100%;}
+
+ul {
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+main {
+  display:inline-flex;
+  flex-wrap: wrap;}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none; }
+
+article {
+  margin: 1em 2.3em;
+  padding: 0.3em;
+  background-color: white;
+  box-shadow: 0.5em 0.5em 0.2em lightgrey;
+  justify-content: space-around; }
+
+
+img {
+  margin-left: 0.2em; }
+
+.status {
+  margin: 0.2em 0; }
+
+.buy {
+  color: #95763f;
+  font-weight: bolder; }
+
+.onsale {
+  color: #ffcc00;
+  font-weight: bolder; }
+
+.sold {
+  color: grey;
+  font-weight: bolder; }
+
+.price {
+  font-weight: bolder;
+  color: black; }
+
+.product {
+  color: #4b5877;
+  margin: 0.2em 0; }
+
+.main {
+  margin-bottom: 3em; }
+
+footer {
+  background-color: #063045;
+  color: white;
+  padding-bottom: 2em; }
+
+h3 {
+  font-family: 'Lora', serif;
+  margin: 2em 0 1em; }
+
+footer a {
+  color: white; }
+
+footer p {
+  display: inline-block;
+  padding-right: 3.5em; }
+
+footer i {
+  margin-right: 2em; }
+
+input {
+  color: black; }
+
+#boutonok {
+  background-color: #063045;
+  border-color: white;
+  padding: 0.3em 1em;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */
