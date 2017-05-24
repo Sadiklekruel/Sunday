@@ -140,4 +140,10 @@ input {
   padding: 0.3em 1em;
   border-radius: 5px; }
 
+section {
+  padding: 2em;
+  background-color: white;
+  margin: 2em auto;
+}
+
 /*# sourceMappingURL=style.css.map */

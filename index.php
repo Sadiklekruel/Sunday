@@ -23,23 +23,23 @@ get_header(); ?>
                 $myposts = get_posts(array ('category_name' => 'produits', 'posts_per_page' => '-1'));
                     foreach ($myposts as $post):
                         ?>
-                        <a href="#">
-                            <article class="">
-                                <img src="http://placehold.it/150x200" class="img-responsive center-block">
-                                <?php $categories = get_the_category($post->id);
-                                    foreach ($categories as $cat):
-                                        if ($cat->name != 'Produits'):?>
-                                        <p class="<?php echo $cat->slug?>"><?php echo $cat->name;?></p>
-                                        <?php
-                                        endif;
-                                    endforeach;
-                                ?>
-                                <p><?php the_title();?></p>
-                                <p><?php echo get_post_meta($post->ID, 'Price', true);?></p>
-                            </article>
-                        </a>
+                                <a href="<?php echo get_permalink($post->id)?>">
+                                    <article class="">
+                                        <img src="http://placehold.it/150x200" class="img-responsive center-block">
+                                        <?php $categories = get_the_category($post->id);
+                                            foreach ($categories as $cat):
+                                                if ($cat->name != 'Produits'):?>
+                                                <p class="<?php echo $cat->slug?>"><?php echo $cat->name;?></p>
+                                                <?php
+                                                endif;
+                                            endforeach;
+                                        ?>
+                                        <p><?php the_title();?></p>
+                                        <p><?php echo get_post_meta($post->ID, 'Price', true);?></p>
+                                    </article>
+                                </a>
                         <?php
-                    endforeach
+                        endforeach
              ?>
         </main>
 <?php
